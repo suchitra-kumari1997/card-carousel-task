@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+
+<body class="bg-secondary">
+<div class="container-fluid">
+    <h2 class="text-center mb-4 mt-3 text-uppercase text-decoration-underline">Library</h2>
+            <div id="mycar" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-4">
+                                    <div class="card w-100 mb-2 ">
+                                        <img src="book1.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Home Before Dark</h4>
+                                            <p class="card-text">a woman returns to the house made famous by her father’s bestselling horror memoir. Is the place really haunted by evil forces, as her father claimed? 
+                                            </p>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                     <div class="col-sm-12 col-lg-4">
+                                        <div class="card w-100 mb-2">
+                                                <img src="book2.jpg" class="card-img-top">
+                                             <div class="card-body">
+                                                <h4 class="card-title">Brave New World</h4>
+                                                <p class="card-text">Brave New World is a dystopian social science fiction novel by English author Aldous Huxley, written in 1931 and published in 1932.</p>
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Read More</button>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4">
+                                    <div class="card w-100 mb-2">
+                                        <img src="book3.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h4 class="card-title">The Alcehemist</h4>
+                                            <p class="card-text">The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988.
+                                                 Originally written in Portuguese, it became a widely translated international bestseller.</p>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card w-100 mb-2">
+                                                    <img src="book4.jpg" class="card-img-top" >
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Misery</h4>
+                                                        <p class="card-text"> The novel's narrative is based on the relationship 
+                                                            of its two main characters – the popular writer Paul Sheldon and his psychotic fan Annie Wilkes.</p>
+                                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">Read More</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                 <div class="col-sm-12 col-lg-4">
+                                                    <div class="card w-100 mb-2">
+                                                            <img src="book5.jpg" class="card-img-top">
+                                                         <div class="card-body">
+                                                            <h4 class="card-title">Behind Closed Doors</h4>
+                                                            <p class="card-text">It's a story of a couple Jack and Grace. Everyone thinks they are the most perfect couple .But if something is so perfect then it means 
+                                                                there is something wrong.  
+                                                            </p>
+                                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal5">Read More</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card w-100 mb-2">
+                                                    <img src="book6.jpg" class=" card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">The Last thing he told me</h4>
+                                                        <p class="card-text"> A gripping mystery about a woman who thinks she’s found the love of her life—until he disappears.
+                                                             he smuggles a note to his beloved wife of one year: Protect her.</p>
+                                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal6">Read More</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>     
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mycar" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#mycar" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">next</span>
+                  </button>
+            </div>
+        </div>
+
+
+        <!----Modal1---->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal1Label">More about this book</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img src="book1.1.jpg" alt="No Image" height="500" width="400" class="img-fluid">
+                            </div>
+                                <div class="col">
+                            Maggie Holt is used to such questions. Twenty-five years ago, she and her parents, Ewan and Jess, 
+                            moved into Baneberry Hall, a rambling Victorian estate in the Vermont woods. They spent three weeks there
+                             before fleeing in the dead of night, an ordeal Ewan later recounted.
+                            Today, Maggie is a restorer of old homes and too young to remember any of the events mentioned in her father’s book. 
+                            But she also doesn’t believe a word of it. Ghosts, after all, don’t exist. When Maggie inherits Baneberry Hall after
+                            her father’s death, she returns to renovate the place to prepare it for sale. But her homecoming is anything but
+                            warm. People from the past, chronicled in House of Horrors, lurk in the shadows. 
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!---Modal2-->
+          <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal2Label">More about this book</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img src="book2.1.jpg" alt="No Image" height="500" width="400" class="img-fluid">
+                            </div>
+                                <div class="col">
+                                    Brave New World is a dystopian social science fiction novel by English author Aldous Huxley,
+                                     written in 1931 and published in 1932. Largely set in a futuristic World State, whose citizens
+                                      are environmentally engineered into an intelligence-based social hierarchy, the novel anticipates 
+                                      huge scientific advancements in reproductive technology, sleep-learning, psychological manipulation 
+                                      and classical conditioning that
+                                     are combined to make a dystopian society which is challenged by only a single individual: the story's protagonist. 
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        <!---Modal3-->
+          <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal3Label">More about this book</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img src="book3.1.jpg" alt="No Image" height="500" width="400" class="img-fluid">
+                            </div>
+                                <div class="col">
+                                    The constant theme in The Alchemist is to pursue your dreams by following what your heart desires.
+                                     During the young boy's journey, he learns to listen to the heart and to follow the language of omens.
+                                      With each passing obstacle and hurdle that the young boy encounters,
+                                     there is a lesson to learn.It follows the journey of an Andalusian shepherd boy named Santiago. Believing a recurring dream to be prophetic,
+                                     he asks a Gypsy fortune teller in the nearby town about its meaning.
+                                     The woman interprets the dream as a prophecy telling the boy that he will discover a treasure at the Egyptian
+                                      pyramids.
+                                     The Alchemist follows the journey of an Andalusian shepherd boy named Santiago. Believing a recurring dream to be 
+                                     prophetic, he asks a Gypsy fortune teller in the nearby town.                                </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+    <!---Modal4-->
+          <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal4Label">More about this book</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img src="book4.1.jpg" alt="No Image" height="500" width="400" class="img-fluid">
+                            </div>
+                                <div class="col">
+                                    Misery is an American psychological horror thriller novel written by Stephen King and
+                                     first published by Viking Press on June 8, 1987.[1] The novel's narrative is based on
+                                      the relationship of its two main characters – the popular writer Paul Sheldon and 
+                                      his psychotic fan Annie Wilkes. When Paul is seriously injured following a car accident, 
+                                      former nurse Annie brings him to her home, where Paul receives treatment and doses of pain medication.
+                                     Paul realizes that he is a prisoner and is forced to indulge his captor's whims.
+                                     The novel's title has two meanings: it is the name carried by the central heroine of Paul's 
+                                     book series, and King described such a state of emotion during the novel's writing.
+                                      King has outlined the creation of Misery in his memoirs, 
+                                     and mentioned that the image of Annie Wilkes came to him in a dream. 
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+    <!---Modal5-->
+          <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal5Label">More about this book</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img src="book5.1.jpg" alt="No Image" height="500" width="400" class="img-fluid">
+                            </div>
+                                <div class="col">
+                                    Everyone knows a couple like Jack and Grace. He has looks and wealth; she has charm and elegance.
+                                     He's a dedicated attorney who has never lost a case; she is a flawless homemaker, a masterful 
+                                     gardener and cook, and dotes on her disabled younger sister. Though they are still newlyweds,
+                                      they seem to have it all. You might not want to like them, but you do. You're hopelessly charmed
+                                       by the ease and comfort of their home, by the graciousness of the dinner parties they throw.
+                                        You'd like to get to know Grace better ... But it's difficult, because you realize Jack and
+                                         Grace are inseparable ... Some might call this true love. Others might wonder why Grace never answers the phone.
+                                     Or why she can never meet for coffee, even though she doesn't work. 
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+    <!---Modal6-->
+          <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal6Label">More about this book</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img src="book6.1.jpg" alt="No Image" height="500" width="400" class="img-fluid">
+                            </div>
+                                <div class="col">
+                                    Before Owen Michaels disappears, he smuggles a note to his beloved wife of one year: Protect her. Despite her confusion and fear, Hannah Hall knows exactly to whom the note refers—Owen’s sixteen-year-old daughter, Bailey. Bailey,
+                                     who lost her mother tragically as a child. Bailey, who wants absolutely nothing to do with her new stepmother.
+                                     As Hannah’s increasingly desperate calls to Owen go unanswered, as the FBI arrests Owen’s boss, as a US 
+                                     marshal and federal agents arrive at her Sausalito home unannounced, Hannah quickly realizes her husband
+                                      isn’t who he said he was.
+                                      And that Bailey just may hold the key to figuring out Owen’s true identity—and why he really disappeared.
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>
